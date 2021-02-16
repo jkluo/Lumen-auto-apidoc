@@ -1,0 +1,26 @@
+{
+    "name": "jkluo/Lumen-auto-testing",
+    "description": "The Lumen Api Auto Testing",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alvin.luo",
+            "email": "947726804@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jkluo\\LumenApiDoc\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jkluo\\LumenApiDoc\\ApiDocServiceProvider"
+            ]
+        }
+    }
+}
