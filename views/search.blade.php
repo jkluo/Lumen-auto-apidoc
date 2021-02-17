@@ -40,7 +40,7 @@
 
     <div class="form-group search">
         <input  id="search_input" class="form-control input-lg  ng-pristine ng-empty ng-invalid ng-invalid-required" type="text" placeholder="接口名称/接口信息/作者/接口地址" data-provide="typeahead" autocomplete="off">
-        <button class="btn btn-lg btn-success" id="search" data-loading-text="Loading..." autocomplete="off"><i class="glyphicon glyphicon-search"></i> 搜 素</button>
+        <button class="btn btn-lg btn-success" id="search" data-loading-text="Loading..." autocomplete="off"><i class="glyphicon glyphicon-search"></i> 搜 索</button>
     </div>
 
     <div class="result">

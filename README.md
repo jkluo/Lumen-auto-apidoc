@@ -14,8 +14,8 @@ composer  require jkluo/lumen-auto-apidoc
 ```
 #### 3、复制前端资源文件及配置文件
 ```bash
-   1.复制插件目录下面的lumen-apidoc\assets里面的文件到(public|www)/apidoc文件下
-   2.复制插件目录下面的lumen-apidoc\src\config\doc.php文件到config\doc.php,没有config目录自己创建一个
+   1.复制插件目录下面的lumen-auto-apidoc\assets里面的文件到(public|www)/apidoc文件下
+   2.复制插件目录下面的lumen-auto-apidoc\src\config\doc.php文件到config\doc.php,没有config目录自己创建一个
 ```
 #### 4、在config/doc.php文件中，配置需要生成文档的接口类
 ```php

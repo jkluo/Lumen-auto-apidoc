@@ -5,6 +5,7 @@ return [
     'copyright'=>'Powered By alvin', //版权信息
     'controller' => [
         //需要生成文档的类
+        'App\\Http\\Controllers\\Api\\DemoController'
     ],
     'filter_method' => [
         //过滤 不解析的方法名称
